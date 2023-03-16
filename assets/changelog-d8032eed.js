@@ -1,1 +1,0 @@
-import{__tla as o}from"./app-d16e0f5d.js";import"./accordion-a7f1519d.js";Promise.all([(()=>{try{return o}catch{}})()]).then(async()=>{document.querySelectorAll(".changelog__li-desc").forEach((l,t)=>{t=l.querySelectorAll(".hotfix"),t.forEach((r,e)=>{r.style.setProperty("--hotfix-num",'"\u0425\u043E\u0442\u0444\u0438\u043A\u0441 #'+ ++e+'"')})})});
