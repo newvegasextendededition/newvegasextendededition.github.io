@@ -1,0 +1,1 @@
+import"./app-7213792d.js";import"./accordion-a7f1519d.js";const l=document.querySelectorAll(".changelog__li-desc");l.forEach((o,e)=>{e=o.querySelectorAll(".hotfix"),e.forEach((c,t)=>{c.style.setProperty("--hotfix-num",'"Хотфикс #'+ ++t+'"')})});
