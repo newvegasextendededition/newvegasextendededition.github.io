@@ -1,0 +1,44 @@
+{
+  "name": "fnv-ee-site-svelte",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build && node postbuild.js",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "pnpm prettier --write --plugin-search-dir . ./**/*.svelte",
+    "postbuild": "npx svelte-sitemap --domain https://newvegasextendededition.github.io/"
+  },
+  "devDependencies": {
+    "@iconify/svelte": "^3.1.6",
+    "@sveltejs/adapter-auto": "^2.1.1",
+    "@sveltejs/adapter-static": "^2.0.3",
+    "@sveltejs/kit": "^1.30.4",
+    "@types/node": "^20.17.57",
+    "@types/postcss-pxtorem": "^6.1.0",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^3.9.4",
+    "postcss": "^8.5.4",
+    "postcss-em-media-query": "^4.1.1",
+    "postcss-pxtorem": "^6.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-svelte": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "sass": "^1.89.1",
+    "svelte": "^4.2.20",
+    "svelte-check": "^3.8.6",
+    "svelte-sitemap": "^2.7.0",
+    "tailwindcss": "^3.4.17",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.14",
+    "vite-imagetools": "^5.1.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "swiper": "^10.3.1"
+  }
+}

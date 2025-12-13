@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-family: var(--ff-base);
+  background-color: var(--c-primary);
+  color-scheme: dark;
+  color: var(--c-text);
+
+  /* Colors */
+  --c-text: #f8f7f7;
+  --c-primary: #151414;
+  --c-secondary: #1a1919;
+  --c-focus: #ff4500;
+
+  /* Fonts */
+  --ff-base: "Open Sans", sans-serif;
+  --ff-headers: "Montserrat", sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html * {
+  /* Disable Font Boosting on mobile devices */
+  max-height: 1000000px;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1232px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* Compatibility with Deepl Extension for proper justify-between */
+deepl-input-controller {
+  position: absolute;
+}
+
+/** Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply btn-accent font-bold;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-headers font-bold;
+}
+
+strong {
+  @apply text-[#f8f7f7];
+}
+
+ul {
+  @apply flex list-disc flex-col pl-6;
+}
+
+@layer utilities {
+  .backface-visible {
+    backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+    -ms-backface-visibility: visible;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+}
