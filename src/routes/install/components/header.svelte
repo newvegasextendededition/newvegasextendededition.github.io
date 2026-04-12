@@ -44,7 +44,7 @@
           <a
             href="https://www.microsoft.com/en-in/download/details.aspx?id=35"
             target="_blank">DirectX</a
-          >, <strong>обновленные драйвера видеокарты</strong>; 25 ГБ для загрузки, 50 ГБ для установки
+          >, <strong>обновленные драйвера видеокарты</strong>; 26 ГБ для загрузки, 52 ГБ для установки
         </li>
         <li class="text-sm text-secondary sm:text-base">Начинать новую игру рекомендуется после каждого <strong>КРУПНОГО</strong> обновления сборки</li>
         <li class="text-sm text-secondary sm:text-base">
