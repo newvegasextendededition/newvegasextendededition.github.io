@@ -23,7 +23,7 @@
               class="relative before:absolute before:left-1/2 before:top-0 before:-translate-x-1/2 before:text-sm before:text-secondary before:opacity-0 before:transition-all before:content-['11.04.26'] hover:before:-top-3.5 hover:before:opacity-100"
               href="https://discord.com/invite/cRqSMb34eU"
               target="_blank">Скачиваем торрент</a
-            > <a href="https://rootz.so/d/1Fqc0u">(зеркало)</a>, запускаем "Fallout New Vegas Extended Edition.exe".
+            > <a href="https://files.catbox.moe/bth25w.torrent">(зеркало)</a>, запускаем "Fallout New Vegas Extended Edition.exe".
           </p>
         </li>
 
